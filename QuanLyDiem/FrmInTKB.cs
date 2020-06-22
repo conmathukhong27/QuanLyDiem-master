@@ -99,7 +99,8 @@ namespace QuanLyDiem
 
             // Biểu diễn thông tin TKB
             //Tạo dòng tiêu đề bảng
-            
+
+            exRange.Range["D8:J40"].HorizontalAlignment = COMExcel.XlHAlign.xlHAlignCenter;
             exRange.Range["D7:J7"].Font.Bold = true;
             exRange.Range["D7:J7"].HorizontalAlignment = COMExcel.XlHAlign.xlHAlignCenter;
             exRange.Range["D7:J7"].ColumnWidth = 12;
